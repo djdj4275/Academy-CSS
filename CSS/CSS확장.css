@@ -1,0 +1,49 @@
+.resize {
+    background-color: aqua;
+    border: 3px solid black;
+    resize: both;
+    overflow: auto;
+}
+
+div{
+    width: 200px;
+    height: 50px;
+}
+
+.outline_offset {
+    background-color: rgb(188,188,255);
+    outline: 3px solid maroon;
+    border: 3px solid green;
+    outline-offset: 20px;
+}
+
+.box_sizing {
+    position: relative;
+    top: 30px;
+    background-color: bisque;
+    padding: 20px;
+    box-sizing: content-box;
+}
+
+section {
+    overflow: auto;
+}
+
+.columns {
+    columns: 50px 3;
+    column-gap: 30px;
+    column-rule: 2px solid black;
+}
+
+.flex_c {
+    background-color: antiquewhite;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex_c p {
+    background-color: brown;
+    align-self:center;
+}

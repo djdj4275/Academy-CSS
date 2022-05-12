@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: darkblue;
+    padding: 30px;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+li a:hover {
+    color: white;
+    text-shadow: 1px 1px 3px darkblue;
+}
+
+.page {
+    padding: 10px;
+}
+
+.notic_left {
+    width: 300px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.baner {
+    width: 300px;
+    height: 200px;
+    background-color: lightgray;
+    margin-top: 20px;
+}
+
+.notic_right {
+    margin-left: 350px;
+}
+
+.notic_title {
+    border-bottom: 1px dashed gray;
+}
+
+.notic_main, .notic_new {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.notic_new_body .new_icon::after {
+    content: "N";
+    background-color: darkblue;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    background-color: gray;
+    padding: 30px;
+}
+
+footer > p {
+    text-align: center;
+}
